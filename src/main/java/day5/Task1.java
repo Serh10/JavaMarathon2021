@@ -10,7 +10,7 @@ public class Task1 {
     }
 }
 
-class Car {
+class Car {1
     private String Model;
     private String Color;
     private int YoM;
