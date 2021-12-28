@@ -36,8 +36,8 @@ public class Task2 {
         Player player3 = new Player(random.nextInt(11) + 90);
         Player player4 = new Player(random.nextInt(11) + 90);
         Player player5 = new Player(random.nextInt(11) + 90);
-//        Player player6 = new Player(random.nextInt(11) + 90);
-//        Player player7 = new Player(random.nextInt(11) + 90);
+        Player player6 = new Player(random.nextInt(11) + 90);
+        Player player7 = new Player(random.nextInt(11) + 90);
         for (int i=0;i<100;i++){
             player1.run();
         }

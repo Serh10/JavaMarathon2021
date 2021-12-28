@@ -11,7 +11,6 @@ public class Player {
         if (countPlayers < 6) {
             countPlayers++;
         }
-
     }
 
     public int getStamina() {
@@ -23,14 +22,14 @@ public class Player {
     }
 
     public void run() {
-        if (stamina > 0) {
+        if (stamina > 1) {
             stamina--;
-        } else if (stamina == 0) {
+        } else if (stamina == 1) {
             System.out.println("Игроку нужен отдых, он убывает ");
+            stamina--;
             countPlayers--;
             return;
         }
-
     }
 
     public void info() {
